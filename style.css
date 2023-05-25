@@ -2,6 +2,7 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif
     font-weight: 200;
+    text-align: center;
 }
 
 
@@ -11,17 +12,26 @@ h1 {
     font-weight: 900;
     background: black;
     color: red;
+    text-align: center;
+    padding: 25px 100px;
 }
 
 h2 {
     font-size: 22px;
-    background-color: rgb(0, 242, 0)
+    background-color: rgb(0, 242, 0);
+    text-align: center;
+    padding: 25px 100px;
+    
 }
 
 
  img {
     width: 500px;
     height: auto;
+    display: block;
+    border: solid 20px;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 
@@ -31,4 +41,5 @@ h2 {
     font-size: 22px;
     font-weight: 700;
     background-color: yellow;
+    text-align: center;
  }
